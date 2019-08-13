@@ -1,0 +1,9 @@
+*.egg-info
+dist/*
+build/*
+*/__pycache__/*
+*/*/__pycache__/*
+jitenshop/webapp/static/node_modules/*
+yarn.lock
+jitenshop/config.ini
+data/*
