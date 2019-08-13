@@ -1,7 +1,6 @@
 """Luigi tasks dedicated to station recovery
 """
 
-
 from datetime import datetime
 import os
 import sh

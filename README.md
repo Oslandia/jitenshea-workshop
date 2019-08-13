@@ -1,4 +1,4 @@
-# Jitenshea-workshop
+# workshop-jitenshea
 
 Light version of [Jitenshea](github.com/garaud/jitenshea) designed for presentations in workshops.
 
@@ -7,7 +7,7 @@ Light version of [Jitenshea](github.com/garaud/jitenshea) designed for presentat
 Clone the repo on your computer:
 
 ```
-$ git clone ssh://git@git.oslandia.net:10022/Oslandia-data/jitenshea-workshop.git
+$ git clone git@github.com:Oslandia/workshop-jitenshea.git
 ```
 
 Install the Python dependencies:
