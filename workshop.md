@@ -98,11 +98,11 @@ quality.
 
 Here comes `Luigi`!
 
-<img src="./img/luigi-the-plumber.jpg"  width="200" height="200">
+<img src="./img/luigi-the-plumber.jpg"  width="300" height="200">
 
-(ahem)
+... (ahem)
 
-<img src="./img/luigi.png"  width="200" height="200">
+<img src="./img/luigi.png"  width="300" height="200">
 
 ## Break
 
@@ -115,13 +115,13 @@ Here comes `Luigi`!
 Here we have a nice pipeline, with our (clustered) bike-sharing stations, one
 week of availability data.
 
-<img src="./img/luigi-pipeline.png"  width="500" height="200">
+<img src="./img/luigi-pipeline.png"  width="600" height="200">
 
 One still has to create accesses to this data, and render it through an API: it will then be possible to access our database externaly.
 
 Here comes `Flask`!
 
-<img src="./img/flask-logo.png"  width="200" height="200">
+<img src="./img/flask-logo.png"  width="300" height="200">
 
 ## Visualize data through a web application
 
