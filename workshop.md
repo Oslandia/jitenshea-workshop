@@ -42,6 +42,13 @@ the [Github repo](https://github.com/Oslandia/workshop-jitenshea)!
 + `Postgres`/`PostGIS` (handling the data!)
 + `yarn` (javascript dependency management)
 
+The main external Python libraries that we will use:
++ SQLAlchemy
++ pandas
++ scikit-learn
++ Luigi
++ Flask
+
 ## Data retrieving
 
 *Duration: 10' (9h30-9h40)*
