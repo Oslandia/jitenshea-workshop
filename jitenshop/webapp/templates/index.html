@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+
+<div class="jt-header">
+  <h1>Bicycle-sharing Data Analysis</h1>
+</div>
+
+<div class="container">
+  <h2>Description</h2>
+  <p>Get and visualize some bike-sharing <b>Open Data</b>.</p>
+  <p>Developed and hosted by the <a href="http://oslandia.com">Oslandia</a> team!</p>
+
+  <h3 class="panel-title"><i data-feather="bar-chart-2"></i>Data Analysis</h3>
+  <p>
+    Get some stats about shared-bike usage:
+    availability timeseries, station clusters, etc.
+  </p>
+  <p class="centered"><a class="btn btn-primary" href="{{ url_for('city_view') }}">Lyon page</a></p>
+
+
+  <h3 class="panel-title"><i data-feather="code"></i>API</h3>
+  <p>
+    Retrieve the data and the analysis with a simple Web API.
+    Get some data in JSON or GeoJSON.
+  </p>
+  <p class="centered"><a class="btn btn-primary" href="{{ url_for('swagger_ui') }}">API</a></p>
+
+</div>
+
+
+{% endblock %}

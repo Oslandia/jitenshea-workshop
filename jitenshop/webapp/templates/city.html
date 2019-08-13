@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+
+<div class="header">
+  <h1>Bicycle-sharing data analysis for LYON</h1>
+</div>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"
+        aria-current="page"><a href="{{url_for('index')}}">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">LYON</li>
+  </ol>
+</nav>
+
+<div class="container">
+    <h2>Map</h2>
+
+    <div class="container">
+      <p>
+	Current bikes availability: from <b style="color: red;">low</b>
+	to <b style="color: green;">high</b> availability. You can also visualize
+	the station clusters.
+      </p>
+      <div id="stationMap" data-city="lyon" style="height: 500px;">
+    </div>
+    </div>
+
+    
+    <h2>Clustering timeseries</h2>
+
+    <div id="clusterCentroids" data-city="lyon" style="width: 100%; height:400px;">
+    </div>
+
+</div>
+
+{% endblock %}
+
+
+{% block appjs %}
+<script src="{{ url_for('static', filename='city.js') }}" type="text/javascript"></script>
+{% endblock %}
