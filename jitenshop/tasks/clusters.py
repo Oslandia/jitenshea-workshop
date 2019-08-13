@@ -164,16 +164,3 @@ class StoreCentroidsToDatabase(CopyToTable):
                      "PRIMARY KEY (cluster_id, start, stop));"
                      "").format(table=self.table, coldefs=coldefs)
             connection.cursor().execute(query)
-
-
-class Clustering(luigi.Task):
-    """Clustering master task
-
-    """
-    n_clusters = luigi.IntParameter(default=4)
-    start = luigi.DateParameter(default=one_week_ago())
-    stop = luigi.DateParameter(default=date.today())
-
-    def requires(self):
-        yield StoreClustersToDatabase(self.n_clusters, self.start, self.stop)
-        yield StoreCentroidsToDatabase(self.n_clusters, self.start, self.stop)

@@ -15,8 +15,9 @@ from jitenshop import config
 from jitenshop.tasks import db, stations
 from jitenshop.tasks import one_week_ago
 
+
 DATADIR = config["main"]["datadir"]
-LYON_BIKEAVAILABILITY_URL = config["lyon"]["availability_url"]
+LYON_BIKEAVAILABILITY_URL = config["lyon"]["realtime_url"]
 LYON_BIKEFULLAVAILABILITY_URL = config["lyon"]["full_availability_url"]
 
 
