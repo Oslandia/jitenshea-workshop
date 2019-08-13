@@ -146,7 +146,7 @@ web visualization, with plots, charts and so on...
 Look at all the charts, test them, click and click again...
 
 Take more idea from our original web
-application: [data.oslandia.io/bikes](data.oslandia.io/bikes).
+application: [data.oslandia.io/bikes](https://data.oslandia.io/bikes).
 
 ## Enrich the app
 
