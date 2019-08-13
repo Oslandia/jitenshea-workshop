@@ -9,12 +9,12 @@ port = your-port
 
 [lyon]
 # URLs
-station_url = https://download.data.grandlyon.com/wfs/grandlyon?service=wfs&request=GetFeature&version=2.0.0&SRSNAME=EPSG:4326&outputFormat=SHAPEZIP&typename=pvo_patrimoine_voirie.pvostationvelov
+station_url = https://download.data.grandlyon.com/wfs/grandlyon?SERVICE=WFS&VERSION=2.0.0&outputformat=SHAPEZIP&request=GetFeature&SRSNAME=EPSG:3946&typename=pvo_patrimoine_voirie.pvostationvelov
 realtime_url = https://download.data.grandlyon.com/ws/rdata/jcd_jcdecaux.jcdvelov/all.json
 full_availability_url = https://download.data.grandlyon.com/sos/velov?request=GetObservation&service=SOS&version=1.0.0&offering=reseau_velov&observedProperty=bikes&eventTime={}/{}&responseFormat=application/json
 # db information
 schema = lyon
-srid = 4326
+srid = 3946
 typename = pvo_patrimoine_voirie.pvostationvelov
 # station geoloc variable names
 feature_id = idstation
