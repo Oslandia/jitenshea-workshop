@@ -13,7 +13,7 @@ $ git clone git@github.com:Oslandia/workshop-jitenshea.git
 Install the Python dependencies:
 
 ```
-$ cd jitenshop
+$ cd workshop-jitenshea
 $ virtualenv -p /usr/bin/python3 venv
 $ source venv/bin/activate
 (venv)$ python setup.py install
