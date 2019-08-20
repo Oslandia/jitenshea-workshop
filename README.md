@@ -19,11 +19,18 @@ $ source venv/bin/activate
 (venv)$ python setup.py install
 ```
 
-Install the javascript dependencies:
+Install the javascript dependencies, we will use `yarn`. Let's install it on Debian/Ubuntu:
 
 ```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
 yarn install
 ```
+
+(See the `yarn` [installation procedure](https://yarnpkg.com/en/docs/install#debian-stable) for other platforms.)
+
+This repo is made for `yarn==1.17.3`. Check your version with `yarn --version`.
 
 ## Configuration
 
