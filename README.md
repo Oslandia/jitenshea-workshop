@@ -2,6 +2,8 @@
 
 Light version of [Jitenshea](github.com/garaud/jitenshea) designed for presentations in workshops.
 
+Click for the [workshop document](./workshop.md)!
+
 ## Installation
 
 Clone the repo on your computer:
