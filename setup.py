@@ -7,23 +7,25 @@ with open("README.md") as fobj:
     LONG_DESCRIPTION = fobj.read()
 
 INSTALL_REQUIRES = [
-    "luigi==2.8.7",
-    "numpy==1.17.0",
+    "luigi<=2.8.7",
+    "numpy<=1.17.0",
     "pandas==0.25.0",
     "requests==2.22.0",
     "psycopg2-binary==2.8.3",
-    'sqlalchemy==1.3.6',
+    'sqlalchemy<=1.3.6',
     'lxml==4.4.0',
     'daiquiri==1.6.0',
     'Flask==1.0.2',
     'flask-restplus==0.12.1',
     'sh==1.12.14',
+    'matplotlib',
     'seaborn==0.9.0',
     'scikit-learn==0.21.3',
-    'tables',
-    'jupyter==4.5.0',
+    'jupyter==1.0.0',
     'notebook==6.0.0',
-    'folium==0.10.0'
+    'folium==0.10.0',
+    'fiona',
+    'shapely'
 ]
 
 
