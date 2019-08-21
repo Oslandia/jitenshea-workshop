@@ -7,21 +7,22 @@ with open("README.md") as fobj:
     LONG_DESCRIPTION = fobj.read()
 
 INSTALL_REQUIRES = [
-    "luigi",
-    "numpy",
-    "pandas",
-    "requests",
-    "psycopg2-binary",
-    'sqlalchemy',
-    'lxml',
-    'xgboost',
-    'daiquiri',
+    "luigi==2.8.7",
+    "numpy==1.17.0",
+    "pandas==0.25.0",
+    "requests==2.22.0",
+    "psycopg2-binary==2.8.3",
+    'sqlalchemy==1.3.6',
+    'lxml==4.4.0',
+    'daiquiri==1.6.0',
     'Flask==1.0.2',
     'flask-restplus==0.12.1',
-    'sh',
-    'seaborn',
-    'scikit-learn',
-    'tables'
+    'sh==1.12.14',
+    'seaborn==0.9.0',
+    'scikit-learn==0.21.3',
+    'tables',
+    'jupyter==4.5.0',
+    'notebook==6.0.0'
 ]
 
 
@@ -44,8 +45,12 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     include_package_data=True,
     install_requires=INSTALL_REQUIRES,
-    extras_require={'dev': ['pytest', 'pytest-sugar', 'ipython', 'ipdb',
-                            'jupyter', 'notebook']},
+    extras_require={'dev': [
+        'pytest',
+        'pytest-sugar',
+        'ipython',
+        'ipdb'
+    ]},
 
     author="Raphaël Delhome",
     author_email='raphael.delhome@oslandia.com',
