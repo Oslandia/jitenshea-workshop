@@ -10,7 +10,7 @@ Clone the repo on your computer:
 $ git clone git@github.com:Oslandia/workshop-jitenshea.git
 ```
 
-Install the Python dependencies:
+This project aims to run with Python3. Install the dependencies:
 
 ```
 $ cd workshop-jitenshea
@@ -36,6 +36,23 @@ This repo is made for `yarn==1.17.3`. Check your version with `yarn --version`.
 
 A configuration file sample can be found at `jitenshop/config.ini.sample`. Copy
 it as `jitenshop/config.ini` and custom it regarding your system!
+
+## Reset the database
+
+As a starting step, the application database can be reset with the
+`reset_db.sh` command:
+
+```
+chmod +x ./reset_db.sh
+./reset_db.sh
+```
+
+This program:
+- read the config file (so do not forget to define it!) to get the db
+  connection parameters,
+- remove the data folder content,
+- drop the database if it exists then re-create it from scratch,
+- add the PostGIS extension to it.
 
 ## Work on the project notebooks
 
