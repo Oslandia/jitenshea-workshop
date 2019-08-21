@@ -1,5 +1,9 @@
 # Extraction, analysis and dataviz on open geospatial datasets
 
+https://github.com/Oslandia/workshop-jitenshea
+
+![](./img/foss4g-2019-bucharest.jpg)
+
 ## Introduction
 
 + Who I am (who we are!)
