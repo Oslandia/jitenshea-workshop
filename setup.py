@@ -22,7 +22,8 @@ INSTALL_REQUIRES = [
     'scikit-learn==0.21.3',
     'tables',
     'jupyter==4.5.0',
-    'notebook==6.0.0'
+    'notebook==6.0.0',
+    'folium==0.10.0'
 ]
 
 
