@@ -12,16 +12,25 @@ https://github.com/Oslandia/workshop-jitenshea
 + Disclaimer : sandbox project!
 
 ```
-Since a few years, open data portals have become more and more popular, allowing experienced users to download and exploit a wide range of datasets, among which georeferenced ones.
+Since a few years, open data portals have become more and more popular,
+allowing experienced users to download and exploit a wide range of datasets,
+among which georeferenced ones.
 
-This workshop will demystify the exploitation of such data, by illustrating typical treatments with a concrete example, *e.g.* analyse a bike-sharing system in a given city:
+This workshop will demystify the exploitation of such data, by illustrating
+typical treatments with a concrete example, *e.g.* analyse a bike-sharing
+system in a given city:
 - extract data from open data portals and put it into a database
 - product new information through machine learning techniques
 - display data with a public API and visualize it with a web application
 
-All these steps will be realised with a lot of Python and a few Javascript, without forgetting PostgreSQL and its PostGIS extension to store georeferenced data.
+All these steps will be realised with a lot of Python and a few Javascript,
+without forgetting PostgreSQL and its PostGIS extension to store georeferenced
+data.
 
-The workshop is intended for intermediate users, with basic knowledge in Data Science and Python/Javascript. Live coding (through Jupyter Notebooks) will take up the major part of the workshop, and interns will be encouraged to handle data.
+The workshop is intended for intermediate users, with basic knowledge in Data
+Science and Python/Javascript. Live coding (through Jupyter Notebooks) will
+take up the major part of the workshop, and interns will be encouraged to
+handle data.
 ```
 
 ## Outline
