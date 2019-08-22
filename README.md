@@ -74,3 +74,15 @@ the [Lyon Open Data portal](https://data.beta.grandlyon.com/en/accueil) by
 curiosity, or directly focus on
 the
 [bike-sharing system data](https://download.data.grandlyon.com/catalogue/srv/eng/catalog.search#/metadata/9bc6806d-e8a0-463b-aaa1-4364a75e44d7).
+
+## Get the data for the workshop
+
+Due to connexion hazards during the workshop, you may get the useful data
+before to be in the workshop room. To get them, both commands will do the job:
+
+```
+python -m luigi --local-scheduler --module jitenshop.tasks.stations DownloadShapefile
+python -m luigi --local-scheduler --module jitenshop.tasks.availability Availability --start 2019-08-12 --stop 2019-08-18
+```
+
+(respectively for the shared-bike stations and bike availability history)

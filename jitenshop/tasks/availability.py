@@ -155,7 +155,7 @@ class Availability(luigi.Task):
     @property
     def path(self):
         return os.path.join(
-            DATADIR, "lyon", "full_availability",
+            DATADIR, "lyon", "history",
             "{date_begin}-{date_end}.json"
         )
 
@@ -189,7 +189,7 @@ class AvailabilityToCSV(luigi.Task):
     @property
     def path(self):
         return os.path.join(
-            DATADIR, "lyon", "full_availability", "{date_begin}-{date_end}.csv"
+            DATADIR, "lyon", "history", "{date_begin}-{date_end}.csv"
         )
 
     def requires(self):
