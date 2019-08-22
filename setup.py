@@ -25,7 +25,8 @@ INSTALL_REQUIRES = [
     'notebook==6.0.0',
     'folium==0.10.0',
     'fiona',
-    'shapely'
+    'shapely',
+    'tables'
 ]
 
 
