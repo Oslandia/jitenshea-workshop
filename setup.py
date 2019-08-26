@@ -7,7 +7,7 @@ with open("README.md") as fobj:
     LONG_DESCRIPTION = fobj.read()
 
 INSTALL_REQUIRES = [
-    "luigi<=2.8.7",
+    "luigi @ git+https://github.com/spotify/luigi",
     "numpy<=1.17.0",
     "pandas==0.25.0",
     "requests==2.22.0",
