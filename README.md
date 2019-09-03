@@ -48,14 +48,16 @@ To create the workshop VM you need to import the virtual appliance
 http://hekla.oslandia.net/workshop-jitenshea/, and download the
 workshop-jitenshea.ova file (4.0 GBytes).
 
-*Note:* please open an issue on https://github.com/Oslandia/workshop-jitenshea
-if the workshop-jitenshea.ova file is no longer available on the server.
+*Note:* please open an issue if the `workshop-jitenshea.ova` file is no longer
+available on the server.
 
 You can also download the `workshop-jitenshea.ova.md5` file and check that the
 `workshop-jitenshea.ova` file hasn't been corrupted during download. On Linux
 you can use the following command to verify the md5 sum:
 
-$ md5sum -c workshop-jitenshea.ova.md5
+```
+md5sum -c workshop-jitenshea.ova.md5
+```
 
 Now launch the VirtualBox user interface and import the virtual appliance
 `workshop-jitenshea.ova`. In the "Appliance settings" window make sure you give
