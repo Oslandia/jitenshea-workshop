@@ -6,6 +6,8 @@ Click for the [workshop document](./workshop.md)!
 
 ## Installation
 
+### Ubuntu
+
 Clone the repo on your computer:
 
 ```
@@ -33,6 +35,35 @@ yarn install
 (See the `yarn` [installation procedure](https://yarnpkg.com/en/docs/install#debian-stable) for other platforms.)
 
 This repo is made for `yarn==1.17.3`. Check your version with `yarn --version`.
+
+### Other
+
+For other systems, you can install the project by the way of
+a [VirtualBox 6.0](https://www.virtualbox.org/). VirtualBox is used to run a
+Virtual Machine (VM) pre-installed with all the software necessary for this
+workshop.
+
+To create the workshop VM you need to import the virtual appliance
+`workshop-jitenshea.ova` into VirtualBox. Go to
+http://hekla.oslandia.net/workshop-jitenshea/, and download the
+workshop-jitenshea.ova file (4.0 GBytes).
+
+*Note:* please open an issue on https://github.com/Oslandia/workshop-jitenshea
+if the workshop-jitenshea.ova file is no longer available on the server.
+
+You can also download the `workshop-jitenshea.ova.md5` file and check that the
+`workshop-jitenshea.ova` file hasn't been corrupted during download. On Linux
+you can use the following command to verify the md5 sum:
+
+$ md5sum -c workshop-jitenshea.ova.md5
+
+Now launch the VirtualBox user interface and import the virtual appliance
+`workshop-jitenshea.ova`. In the "Appliance settings" window make sure you give
+enough RAM to the VM. 4096 MB should be enough, but the more RAM the
+better.
+
+With the appliance imported you are ready to start the virtual machine, so go
+for it!
 
 ## Configuration
 
